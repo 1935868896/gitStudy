@@ -81,9 +81,12 @@ git rebase -i HEAD~3
 #### 1.git stash
 
 ```
-git stash
+git stash       //此种stash只会暂存 修改和暂存区文件 不会暂存新增文件
 git pull
-git stash pop stash@{0}
+git stash pop stash@{0}       //取出不删除
+或者 git stash pop             //取出并删除
+新增文件怎么办? 
+git stash -u  或者 先add,再stash
 ```
 
 #### 2.git commit
@@ -99,6 +102,4 @@ git add
 git commit -m 解决冲突
 git push               //会多提交一个解决冲突的版本
 ```
-
-
 
