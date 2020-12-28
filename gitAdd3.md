@@ -15,4 +15,8 @@ git 解决冲突 提交1
 git 解决冲突 提交2
 
 git 解决冲突 提交3
+<<<<<<< Updated upstream
 git 远程测试2
+=======
+
+git完整流程测试
