@@ -1,1 +1,8 @@
 git reset
+reset1
+reset2
+9:45 reset
+reset2
+9:51 le
+9:51
+
