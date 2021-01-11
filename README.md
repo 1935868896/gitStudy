@@ -191,3 +191,19 @@ git checkout dev1       //git修改分支
 ### git rebase的详细介绍
 
 ### git reset的详细介绍
+
+git查看日志树--类似于idea的log表现行驶
+
+```
+git log --oneline --graph --decorate --all
+```
+
+```
+git reset [ –soft | –mixed | –hard] <commit>
+```
+
+#### reset --hard:
+
+git --hard模式是将我们的工作区,暂存区修改的代码全部都清空,当然Untracked files不会清空,然后将我们的代码返回到我们需要提交的版本
+
+#### reset 不加参数(mixed)：保留工作目录，并清空暂存区
