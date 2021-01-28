@@ -1,8 +1,3 @@
-git reset
-reset1
-reset2
-9:45 reset
-reset2
-9:51 le
-9:51
-
+git reset reset提交1
+git reset reset提交2:wq
+git reset reset提交3:wq
