@@ -7,3 +7,12 @@ ff
 nn
 
 oo
+<<<<<<< HEAD
+=======
+ff
+
+nn
+
+gg
+ c094c13... gitrebase (修改一下)
+>>>>>>> 1ef23e2... gitrebase (修改一下)(修改两下)
